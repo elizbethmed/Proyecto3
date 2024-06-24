@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Control Escolar</title>
+</head>
+<body>
+    <h1 >CONTROL DE ALUMNOS</h1>
+    <form id="formularioUsuario">
+       <div id="menu1">
+            <label for="nombre" >Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="apPat" >Apellido Paterno:</label>
+            <input type="text" id="apPat" required>
+
+            <label for="apMat" >Apellido Materno:</label>
+            <input type="text" id="apMat" required>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" required>
+       </div>
+        <br>
+        <br>
+    <div id="gpo">
+    <label for="grupo" >Grupo:</label>
+    <input type="text" id="grupo" required>
+    </div>
+    <br>
+    <div id="menu2">
+        <label for="materia1" >Materia1:</label>
+        <input type="text" id="materia1" required>
+
+        <label for="calificacion1" >Calificacion1:</label>
+        <input type="number" id="calificacion1" required>
+        <br>
+        <br>
+        <label for="materia2" >Materia2:</label>
+        <input type="text" id="materia2" required>
+
+        <label for="calificacion2" >Calificacion2:</label>
+        <input type="number" id="calificacion2" required>
+        <br>
+        <br>
+        <label for="materia3" >Materia3:</label>
+        <input type="text" id="materia3" required>
+        
+        <label for="calificacion3" >Calificacion3:</label>
+        <input type="number" id="calificacion3" required>
+    </div>
+        <button type="submit">Guardar</button>
+    
+    </form>
+    <button id="borrarStorage">Borrar LocalStorage</button>
+    <p id="infoUsuario"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

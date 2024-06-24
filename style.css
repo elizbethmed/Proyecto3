@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(177, 173, 173);
+}
+
+#formularioUsuario {
+    border: 2px solid rgb(44, 43, 43);
+}
+
+#gpo {
+    margin-left: 10%;   
+}
+
+#menu1 {
+ display: block;
+    margin-left: 10%;
+    
+ 
+}
+
+#menu2 {
+    margin-left: 10%;
+    border: 10% solid blue;
+   }
+
+#infoUsuario {
+    font-size: 150%;
+}
